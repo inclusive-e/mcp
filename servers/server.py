@@ -7,6 +7,9 @@ def add_numbers(a: int, b: int) -> int:
   "Add two numbers from given arguments"
   return a + b
 
-if __name__ == "__main__":
+def main():
   """Run the MCP Server as stdio transport"""
-  mcp.run(transport='stdio')
+  return mcp.run(transport='stdio')
+
+if __name__ == "__main__":
+  main()
